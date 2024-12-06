@@ -14,6 +14,7 @@ const number= 5;
 const text = "esercizio";
 const bool= true;
 console.log(`${number} , ${text} , ${bool}`);
+console.log(number+' , '+text+' , '+ bool); // TODO: alternativa
 
 // 3. Sostituisci null nelle righe sottostanti utilizzando operazioni con le stringhe
 // e le variabili sopra in modo da stampare correttamente 
@@ -23,7 +24,9 @@ const firstName = 'Jane'; // NON MODIFICARE QUESTA RIGA
 const lastName = 'Smith'; // NON MODIFICARE QUESTA RIGA
 
 const fullName = (`${firstName} ${lastName}`);
+const fullName2 = (firstName + " " + lastName);
 console.log(fullName); // Output: "Jane Smith"
+console.log(fullName2); // TODO: alternativa
 
 // 4. Imposta questa variabile utilizzando una proprietà
 // sulla variabile alphabet per ottenere la sua lunghezza
