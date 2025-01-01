@@ -13,8 +13,7 @@ console.log(name);
 const number= 5;
 const text = "esercizio";
 const bool= true;
-console.log(`${number} , ${text} , ${bool}`);
-console.log(number+' , '+text+' , '+ bool); // TODO: alternativa
+console.log(number ,text ,bool);
 
 // 3. Sostituisci null nelle righe sottostanti utilizzando operazioni con le stringhe
 // e le variabili sopra in modo da stampare correttamente 
